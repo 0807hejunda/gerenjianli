@@ -1,0 +1,181 @@
+/*页面初始化*/
+*{
+    padding: 0;
+    margin:0 ;
+    list-style: none;
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper:first-child{
+    background: #3f3f3f;
+}
+
+
+.swiper-slide:first-child img{
+    width: 3rem;
+    height: 3rem;
+    border-bottom-left-radius: 33%;
+    border-bottom-right-radius: 33%;
+    border-top-left-radius: 33%;
+    border-top-right-radius: 33%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+.swiper-slide:first-child p{
+    font-size: 0.74rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+.swiper-slide:nth-child(2)
+{
+    background: #334d5c;
+}
+
+.swiper-slide:nth-child(2) img {
+    width: 2.3em;
+    height: 2.3em;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.swiper-slide:nth-child(2) p{
+    font-size: 0.5rem;
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 1.2rem;
+    border-bottom: 1px solid white;
+}
+
+
+
+.swiper-slide:nth-child(3){
+    background: #004a44;
+    padding-left: 0.3rem;
+}
+.page3 .main{
+    padding-top:1rem;
+}
+.page3 .main h2{
+    color: white;
+    font-size: 0.54rem;
+    margin-bottom: 0.5rem;
+}
+.page3 .main p{
+    font-size: 0.6rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+.page3 .main .big1{
+    width: 85%;
+    height: 0.4rem;
+    background:#008cd3;
+    margin-top: 0.3rem;
+}
+.page3 .main .big2{
+    width: 80%;
+    height: 0.4rem;
+    background:#008cd3;
+    margin-top: 0.3rem;
+}
+.page3 .main .big3{
+    width: 78%;
+    height: 0.4rem;
+    background:#008cd3;
+    margin-top: 0.3rem;
+}
+.page3 .main .big4{
+    width: 82%;
+    height: 0.4rem;
+    background:#008cd3;
+    margin-top: 0.3rem;
+}
+.page3 img{
+    width: 2rem;
+    height: 2rem;
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.swiper-slide:nth-child(4){
+    background: #1c3648;
+}
+
+.swiper-slide:nth-child(4) h2{
+    color: white;
+    font-size: 0.54rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+.page4 a{
+    display: block;
+    width: 2.5rem;
+    height: 4rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+.page4 a img{
+    width: 100%;
+    height: 100%;
+}
+
+.page5{
+    background: url("../image/4ab35d031f481994ee3a35047c8c75f1.jpg");
+}
+.page5 p{
+    color: orange;
+    font-weight: bold;
+    font-size: 0.54rem;
+    line-height: 1.8rem;
+}
+.page5 img{
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin: 0 auto;
+}
+.jind1{
+    animation: jindu1 1s linear forwards;
+}
+@keyframes jindu1{
+    0%{width: 0}
+    100%{width: 85%}
+}
+.jind2{
+    animation: jindu2 1s linear forwards;
+}
+@keyframes jindu2{
+    0%{width: 0}
+    100%{width: 80%}
+}
+.jind3{
+    animation: jindu3 1s linear forwards;
+}
+@keyframes jindu3{
+    0%{width: 0}
+    100%{width: 78%}
+}
+.jind4{
+    animation: jindu4 1s linear forwards;
+}
+@keyframes jindu4{
+    0%{width: 0}
+    100%{width: 82%}
+}

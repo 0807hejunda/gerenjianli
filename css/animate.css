@@ -1,0 +1,59 @@
+.animate{
+    animation: 1s linear 1s forwards;
+}
+.animate1{
+    animation: 3s linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.delay1{
+    animation-delay: 1s;
+}
+.delay2{
+    animation-delay: 2s;
+}
+.delay3{
+    animation-delay: 3s;
+}
+.delay4{
+    animation-delay: 4s;
+}
+.delay5{
+    animation-delay: 5s;
+}
+.delay6{
+    animation-delay: 6s;
+}
+.delay7{
+    animation-delay: 7s;
+}
+.delay8{
+    animation-delay: 8s;
+}
+.delay9{
+    animation-delay: 9s;
+}
+.delay10{
+    animation-delay: 10s;
+}
+.fangda{animation-name: fangda}
+@keyframes fangda {
+    0%{transform:scale(1)}
+    100%{transform:scale(1.2)}
+}
+.xuanzhuan{animation-name: xuanzhuan}
+@keyframes xuanzhuan {
+    0%{transform: rotate(0deg) }
+    100%{transform: rotate(360deg) }
+}
+.zhuojing{animation-name: zhuojing}
+@keyframes zhuojing {
+    0%{transform:translateX(-7rem)}
+    100%{transform:translateX(0rem)}
+}
+.youjing{animation-name:youjing}
+@keyframes youjing {
+    0%{transform:translateX(7rem)}
+    100%{transform:translateX(0rem)}
+}
