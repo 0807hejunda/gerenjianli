@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+
+</head>
+<body>
+<!--<div class="page page1">-->
+    <!--<p class="animate fangda">个人简历</p>-->
+
+    <!--<img class="animate1 xuanzhuan infinite" src="image/QQ图片20170613110508.jpg" alt=""/>-->
+<!--</div>-->
+<!--<div class="page page2 pageDown">-->
+
+
+<!--</div>-->
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <p class="ani" swiper-animate-effect=" pulse" swiper-animate-duration="1s" swiper-animate-delay="0s">个人简历</p>
+
+            <img class="ani" swiper-animate-effect="flip" swiper-animate-duration="0.5s" swiper-animate-delay="0s" src="image/QQ图片20170613110508.jpg" alt=""/>
+
+        </div>
+        <div class="swiper-slide">
+
+            <img class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s" src="image/QQ图片20170613110508.jpg" alt=""/>
+
+            <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">贺俊达</p>
+            <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">出生日期：1997/9/7</p>
+            <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.3s">所在院校：盛邦升华</p>
+            <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.8s">在校专业：Web前端</p>
+            <p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.3s">个人爱好：篮球</p>
+        </div>
+        <div class="swiper-slide page3">
+            <div class="main">
+                <h2 class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.5s" swiper-animate-delay="0s">专业技能掌握</h2>
+                <p class="ani " swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">css+div</p>
+                <div class="ani big1" swiper-animate-effect="jind1" swiper-animate-duration="1.5s" swiper-animate-delay="3s"></div>
+                <p class="ani " swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1s">js</p>
+                <div class="ani big2" swiper-animate-effect="jind2" swiper-animate-duration="1.5s" swiper-animate-delay="3s"></div>
+                <p class="ani " swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">html5，css3</p>
+                <div class="ani big3" swiper-animate-effect="jind3" swiper-animate-duration="1.5s" swiper-animate-delay="3s"></div>
+                <p class="ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2s">移动端</p>
+                <div class="ani big4" swiper-animate-effect="jind4" swiper-animate-duration="1.5s" swiper-animate-delay="3s"></div>
+            </div>
+            <img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="5  s" src="image/2e851b03442ebc0011f81f2f3007848a.jpeg" alt=""/>
+        </div>
+
+        <div class="swiper-slide page4">
+            <h2>项目展示</h2>
+            <a class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" href="Your site is ready to be published at https://hejunda0807.github.io/zuikaopu1/. ">
+                <img src="image/QQ图片20170628215006.jpg" alt=""/>
+            </a>
+            <a class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" href="Your site is ready to be published at https://hejunda0807.github.io/yaoqinhan1/. ">
+                <img src="image/QQ图片20170628215024.png" alt=""/>
+            </a>
+            <a class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" href="">
+                <img src="image/QQ图片20170628215033.png" alt=""/>
+            </a>
+            <a class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" href="">
+                <img src="image/QQ图片20170628215038.png" alt=""/>
+            </a>
+        </div>
+        <div class="swiper-slide page5">
+
+            <p>电话：15297302140</p>
+            <p>QQ：599410344</p>
+            <p>微信</p>
+            <img class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="image/QQ图片20170628232651.jpg" alt=""/>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script src="js/fontsize.js"></script>
+
+<script src="js/zepto.min.js"></script>
+<script src="js/touch.min.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'vertical',
+        onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+            swiperAnimateCache(swiper); //隐藏动画元素
+            swiperAnimate(swiper); //初始化完成开始动画
+        },
+        onSlideChangeEnd: function(swiper){
+            swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+        }
+    })
+</script>
